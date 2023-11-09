@@ -1,9 +1,14 @@
 <template>
-  <v-main>
+    <div class="page-content">
     <router-view />
-  </v-main>
+    </div>
 </template>
 
 <script setup>
   //
 </script>
+<style scoped>
+  .page-content{
+    margin-top: -85vh;
+  }
+</style>
